@@ -1,0 +1,42 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.headerText{
+    background-color: rgba(43, 171, 226, 0.694);
+    overflow: auto;
+    margin: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: solid black 2px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, .5);
+
+}
+
+#gameBoard{
+    background-color: rgba(43, 49, 226, 0.66); 
+    margin: auto;
+    color: antiquewhite;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: solid black 2px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, .5);
+}
+
+.display-4, .lead{
+    margin: auto;
+
+}
+
+.headerText, .question, .startGame, .answerCheck{
+    text-align: center;
+}
+
+img{
+    height: 300px;
+}
