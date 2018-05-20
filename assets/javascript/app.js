@@ -209,7 +209,7 @@ function checkAnswer() {
         answerEval = "Correct!!"
         $(".answerCheck").append("<h1>" + answerEval + "</h1>");
         console.log("correct")
-        timer.reset(3);
+        timer.reset(5);
         timer.start();
         correctAnswers++;
     } else if (selectedAnswer != "") {
@@ -218,7 +218,7 @@ function checkAnswer() {
         $(".answerCheck").append("<h1>" + answerEval + "</h1>");
         $(".answerCheck").append("<h3>The Correct Answer Is: " + questions[questionNumber].answer + "</h3>");
 
-        timer.reset(3);
+        timer.reset(5);
         timer.start();
         wrongAnswers++;
         // console.log("wrong");
@@ -228,7 +228,7 @@ function checkAnswer() {
         answerEval = "TIME'S UP!!"
         $(".answerCheck").append("<h1>" + answerEval + "</h1>");
         $(".answerCheck").append("<h3>The Correct Answer Is: " + questions[questionNumber].answer + "</h3>");
-        timer.reset(3);
+        timer.reset(5);
         timer.start();
         missedAnswers++;
     }
