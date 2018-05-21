@@ -187,6 +187,7 @@ function questionSetup() {
             var a = $("<input>");
             a.attr("type", "radio");
             a.attr("name", "answer");
+            // a.attr("id", "answer");
             a.attr("value", questions[questionNumber].answerChoices[i]);
             // a.text(questions[questionNumber].answerChoices[i]);
             console.log(a)
